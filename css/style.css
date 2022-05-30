@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/**************Global Declaration**********/
+.cursor {
+  cursor: pointer;
+}
+.navbar-toggler:focus{
+  box-shadow: none !important;
+}
+
+/************Color Code Start**************/
+
+.cl-pm {
+  color: #ff6f00;
+}
+.cl-purple {
+  color: #644f9c;
+}
+.cl-grey {
+  color: #f2f2f2;
+}
+.cl-mat-black {
+  color: #404040;
+}
+
+/************Color Code End**************/
+
+/************Background Color Code Start**************/
+
+.bg-cl-pm {
+  background-color: #ff6f00;
+}
+.bg-cl-purple {
+  background-color: #644f9c;
+}
+.bg-cl-grey {
+  background-color: #f2f2f2;
+}
+.bg-cl-mat-black {
+  background-color: #404040;
+}
+
+/************Background Color Code End**************/
+
+/************Header Start**************/
+
+/*Logo Start*/
+.logo p {
+  font-size: 30px;
+}
+/*Logo End*/
+
+/*Lang Start*/
+.lang:hover {
+  color: green;
+}
+/*Lang End*/
+
+/*Nav start*/
+.nav-link:hover {
+  color: #ff6f00;
+}
+/*Nav End*/
+
+/*Sign IN UP Start*/
+
+.signInUp {
+  border-radius: 100px;
+  box-shadow: 2px 2px 10px #dbd9d9;
+}
+.signInUp button {
+  border-radius: 100px;
+}
+.signUp button {
+  box-shadow: 2px 2px 10px #dbd9d9;
+}
+.logIn button:hover {
+  background-color: #ff6f00 !important;
+  color: white !important;
+  transition: 0.5s ease-in-out;
+  box-shadow: 2px 2px 10px #dbd9d9;
+}
+
+/*Sign IN UP End*/
+
+/************Header End**************/
+
+/************Body Start**************/
+
+/*Hero Start*/
+.heroImg img {
+  width: 100%;
+}
+/*Hero End*/
+
+/*Available section Start*/
+/* .availableHead {
+  position: relative;
+}
+.availableHead::before,
+.availableHead::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background-color: #404040;
+}
+.availableHead::after {
+  right: 0;
+  top: 50%;
+  width: 38%;
+}
+.availableHead::before {
+  left: 0;
+  top: 50%;
+} */
+.cardIcon {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.cardIcon i {
+  font-size: 50px;
+  color: #1f5feb;
+}
+.cardBtn button {
+  border-radius: 100px;
+}
+/*Available section end*/
+
+/*Versatile start*/
+.versatileNav {
+  background-color: #f2f2f2;
+  box-shadow: 2px 2px 10px #dbd9d9;
+  border-radius: 100px;
+}
+.versatileNav button {
+  color: #404040;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #ff6f00 !important;
+  border-radius: 100px;
+}
+.versatileImg img {
+  width: 100%;
+}
+/*versatile End*/
+
+/*Title Section Start*/
+.titleCard {
+  border: 2px dashed #f2f2f2;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+}
+.titleCardHead p {
+  font-size: 50px;
+}
+/*Title section End*/
+
+/*Carousal Section Start*/
+.carousal .row {
+  position: relative;
+}
+.box-area {
+  border-radius: 20px;
+}
+.box-area-content {
+  border: 1px dashed #ff6f00;
+  border-radius: 20px;
+}
+.box-area-txt {
+  text-align: left;
+  padding: 0 20px;
+}
+.owl-nav {
+  display: flex;
+}
+.owl-nav .owl-prev {
+  position: absolute;
+  top: 40%;
+  left: -1%;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  top: 40%;
+  right: -1%;
+}
+
+/*Carousal section End*/
+
+/************Body End**************/
+
+/***********Footer start***********/
+.socialIcon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #644f9c;
+}
+.footerColHead p{
+  font-size: 25px;
+}
+.footerList ul{
+  list-style: none;
+  padding-left: 0 !important;
+  font-weight: bold;
+  line-height: 2;
+}
+/**********Footer End*************/
+
+
+/**********Responsive Media Start***********/
+@media(max-width:1199px){
+  /*Navbar*/
+  .nav-item {
+    margin: 0 !important;
+  }
+  .signInUp{
+    background-color: #f2f2f2 !important;
+    box-shadow:  none !important;
+    padding: 0 !important;
+    margin: 10px 0;
+  }
+
+}
+/**********Responsive media end*************/
